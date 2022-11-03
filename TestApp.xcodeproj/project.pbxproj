@@ -50,6 +50,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B31D4F822913FE95002C54E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF6BC5291381090021A6B6 /* OrderView.swift */,
+				B3CF6BC9291393630021A6B6 /* ProfileView.swift */,
+				B3CF6BC329137F350021A6B6 /* ProductView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B31D4F842913FEB0002C54E0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF6BBF291371340021A6B6 /* TabBar.swift */,
+				B31D4F7E2913D161002C54E0 /* OrderCellView.swift */,
+				B31D4F802913D838002C54E0 /* ProductCell.swift */,
+				B3CF6BCB2913981E0021A6B6 /* PhotoPicker.swift */,
+				B3CF6BC7291381D20021A6B6 /* TabBarIcon.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		B3CF6BA529136FBC0021A6B6 = {
 			isa = PBXGroup;
 			children = (
@@ -69,19 +91,13 @@
 		B3CF6BB029136FBC0021A6B6 /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
+				B31D4F842913FEB0002C54E0 /* CustomViews */,
+				B31D4F822913FE95002C54E0 /* Views */,
 				B3CF6BB129136FBC0021A6B6 /* TestAppApp.swift */,
 				B3CF6BB329136FBC0021A6B6 /* ContentView.swift */,
 				B3CF6BB529136FBE0021A6B6 /* Assets.xcassets */,
 				B3CF6BB729136FBE0021A6B6 /* Preview Content */,
-				B3CF6BBF291371340021A6B6 /* TabBar.swift */,
 				B3CF6BC129137CCF0021A6B6 /* Router.swift */,
-				B3CF6BC329137F350021A6B6 /* ProductView.swift */,
-				B3CF6BC5291381090021A6B6 /* OrderView.swift */,
-				B3CF6BC7291381D20021A6B6 /* TabBarIcon.swift */,
-				B3CF6BC9291393630021A6B6 /* ProfileView.swift */,
-				B3CF6BCB2913981E0021A6B6 /* PhotoPicker.swift */,
-				B31D4F7E2913D161002C54E0 /* OrderCellView.swift */,
-				B31D4F802913D838002C54E0 /* ProductCell.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
